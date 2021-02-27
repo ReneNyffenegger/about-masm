@@ -97,7 +97,7 @@ start PROC
 
 ;
 ; With the parameter values put into the
-; respective function, we can finally
+; respective registers, we can finally
 ; call the WinAPI function:
 ;
   call  QWORD PTR __imp_MessageBoxA
